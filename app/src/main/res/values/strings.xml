@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Autos</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_productos">productos</string>
+    <string name="title_activity_buscar">Buscar</string>
+    <string name="title_activity_nuevo">Nuevo</string>
+</resources>

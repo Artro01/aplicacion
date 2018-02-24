@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="unid.arturo.autos.MainActivity">
+    <item
+        android:id="@+id/listar"
+        android:orderInCategory="100"
+        android:title="Lista de productos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/buscar"
+        android:orderInCategory="100"
+        android:title="Buscar Auto"
+        app:showAsAction="never" />
+</menu>

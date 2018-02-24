@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="unid.arturo.autos.Buscar"
+    tools:showIn="@layout/activity_buscar">
+
+    <EditText
+        android:id="@+id/txt_id"
+        android:layout_width="234dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txt_id"
+        android:layout_marginTop="39dp"
+        android:text="Id Auto"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btn_buscar"
+        android:layout_width="66dp"
+        android:layout_height="47dp"
+        android:layout_alignBottom="@+id/txt_id"
+        android:layout_marginStart="24dp"
+        android:layout_toEndOf="@+id/txt_id"
+        android:background="@drawable/ic_search_black_24dp"
+        android:text=""
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/tv_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_buscar"
+        android:layout_marginTop="40dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_existencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_producto"
+        android:layout_marginTop="47dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_costo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_existencias"
+        android:layout_marginTop="41dp"
+        android:textSize="18dp" />
+
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:text="Eliminar" />
+
+
+</RelativeLayout>
